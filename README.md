@@ -2,7 +2,7 @@
 
 This repository tracks public "attacknets" maintained by the EF.
 
-## Beta 0
+## `beta-0`
 
 This program is currently in "beta-0" and all details are subject to change
 
