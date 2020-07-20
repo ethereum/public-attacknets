@@ -36,6 +36,6 @@ to the following:
     * _Show your work_. To qualify for the reward, you must (1) point specifically to the epoch range that affected,
       (2) provide some sort of proof that you caused the outage,
       and (3) provide technical details about the attack and how it was performed.
-* **The reward**: _**$5k (USD)** for each net to the first entity to achieve the goal._
+* **The reward**: _**$5k (USD)** to the first entity to achieve the goal._
   Maximum one reward per entity for `beta_0` attacknets. If you take down `lighthouse-attack-0`,
   you do not qualify for the reward for `prysm-attack-0` and vice versa.
