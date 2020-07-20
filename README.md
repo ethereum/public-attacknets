@@ -6,7 +6,7 @@ This repository tracks public "attacknets" maintained by the EF.
 
 This program is currently in "beta-0" and all details are subject to change
 
-Active beta-0 attacknets:
+Active `beta-0` attacknets:
 * [`lighthouse-attack-0`](./attacknets/lighthouse-attack-0)
 * [`prysm-attack-0`](./attacknets/prysm-attack-0)
 
@@ -18,8 +18,6 @@ Deposits are not enabled in `beta-0` testnets so you'll have to try
 non-validator based attacks for this run.
 
 See README for each net for network configuration and rules/rewards.
-
-View [original announcement](https://notes.ethereum.org/@djrtwo/attacknets-beta-0).
 
 ## Attacknet directory structure
 
@@ -53,7 +51,7 @@ All claims on attacknet rewards must be reported as an issue in this repo.
 
 Please follow this reporting structure to aid in prompt review:
 
-* Prefix the name of the Issue/PR with "[{ATTACK\_NET\_NAME} Reward]
+* Prefix the name of the Issue/PR with "[`{ATTACK_NET_NAME}` Reward]"
 * Use the following structure for the body of the Issue/PR
 
     * **Description**: _High-level description of the attack [1 sentence]_
