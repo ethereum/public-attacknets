@@ -47,7 +47,7 @@ and all rules are subject to change without prior notice].
 * Awards can be redeemed in ETH or DAI
 * Eth2 client teams are eligible to participate only on attacknets that do not contain their specific client
 
-## How to report
+### How to report
 
 All claims on attacknet rewards must be reported as an issue in this repo.
 
@@ -63,3 +63,25 @@ Please follow this reporting structure to aid in prompt review:
     * **Impact**: _Describe the effect had on the attacknet [1 to 2 sentences]_
 
     * **Details**: _Very specific details about the attack including the specific slots/epochs where it can be observed_
+
+## Privacy
+
+The Ethereum Foundation is not responsible for any private information that might
+be leaked as a result of this program.
+
+In the event that the reporting of an attack _does leak_ private information
+(e.g. logs from a testnet containing IP addresses), we ask that you withhold any such information in the public report.
+Instead, please note that there are additional accompanying resources to be shared,
+and the attacknet evaluators will be in touch.
+
+## Important legal information
+
+This attacknet program is an experimental and discretionary rewards program for
+our active Ethereum community to encourage and reward those who are helping
+to improve the platform. It is not a competition. You should know that we can
+cancel the program at any time, and rewards are at the sole discretion of Ethereum Foundation.
+In addition, we are not able to issue rewards to individuals who are on sanctions
+lists or who are in countries on sanctions lists (e.g. North Korea, Iran, etc).
+You are responsible for all taxes. All rewards are subject to applicable law.
+Finally, your testing must not violate any law or compromise any data that is not yours.
+
