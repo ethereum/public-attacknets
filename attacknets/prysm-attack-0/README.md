@@ -19,6 +19,8 @@ all prysm `v0.12.1` attacknet composed of 4 nodes and 128 validators.
 - `MIN_GENESIS_TIME`: `1578009600`
 - `MIN_GENESIS_ACTIVE_VALIDATOR_COUNT`: `128`
 - `GENESIS_DELAY`: `1000`
+- Bootnode ENR(s):
+  - `enr:-LK4QLQJ7VaRRbrW3jE9fRR-gfKKduK74xSvMQAke_KcEKMOGLtJYy6y97fAtCd9Ou1KxRcl68BsM_LemY8f1Bh80XABh2F0dG5ldHOIAAAAAAAAAACEZXRoMpDDVKVKAAAAAP__________gmlkgnY0gmlwhBK3DPCJc2VjcDI1NmsxoQMLKPinmDnROP9TPUG0R-LdCpv-X9hxRS8G4rCrJ7hQuoN0Y3CCIyiDdWRwgiMo`
 - Chain Explorers: None
 - Status Dashboard: None
 

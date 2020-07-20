@@ -19,6 +19,8 @@ all lighthouse `v0.12.1` attacknet composed of 4 nodes and 128 validators.
 - `MIN_GENESIS_TIME`: `1578009600`
 - `MIN_GENESIS_ACTIVE_VALIDATOR_COUNT`: `128`
 - `GENESIS_DELAY`: `300`
+- Bootnode ENR(s):
+  - `enr:-LK4QHAlBrRpcx9d6JTRA5kVnTNSPwVs-v_QIwBE8wfZxIqPWqqMDGGKpZDXI2lhbbnO66cmGK3eEzot3D_P_MGbcUAhh2F0dG5ldHOIgRebSXZucWmEZXRoMpCA4XabAAAAAP__________gmlkgnY0gmlwhBLDX_-Jc2VjcDI1NmsxoQOnyC60XGPSxv86ncxxezh0khFdgu7E3Cqr4imui_h_6oN0Y3CCIyiDdWRwgiMo`
 - Chain Explorers: None
 - Status Dashboard: None
 
