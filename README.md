@@ -78,6 +78,8 @@ and the attacknet evaluators will be in touch.
 
 ## Important legal information
 
+We give explicit permission to attack these attacknets over the internet.
+
 This attacknet program is an experimental and discretionary rewards program for
 our active Ethereum community to encourage and reward those who are helping
 to improve the platform. It is not a competition. You should know that we can
