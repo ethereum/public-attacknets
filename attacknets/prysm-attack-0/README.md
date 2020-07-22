@@ -15,7 +15,7 @@ all prysm `v0.12.1` attacknet composed of 4 nodes and 128 validators.
 - Genesis Block Root: `0x2bdde8c274a94784b376fbef30bc946fc417550a22c0ac9cb10b8d93d27cad1b`
 - Deposit Contract: [`0x0d9D6D3Aa0791D3B3F4f489b46dCD2586C1011C4`](https://goerli.etherscan.io/address/0x0d9D6D3Aa0791D3B3F4f489b46dCD2586C1011C4) ([Goerli Testnet](https://github.com/goerli/testnet))
 - Deposit Contract Deploy Block Hash: `0x9402554e798e2f0e2974ac68961130bc069fb58231bd7c8fa361f24245407550`
-- Deposit Contract Deploy Block Number: `0x9402554e798e2f0e2974ac68961130bc069fb58231bd7c8fa361f24245407550`
+- Deposit Contract Deploy Block Number: `3076295`
 - `MIN_GENESIS_TIME`: `1578009600`
 - `MIN_GENESIS_ACTIVE_VALIDATOR_COUNT`: `128`
 - `GENESIS_DELAY`: `1000`

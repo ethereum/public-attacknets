@@ -66,7 +66,7 @@ Please follow this reporting structure to aid in prompt review:
 
     * **Details**: _Very specific details about the attack including the specific slots/epochs where it can be observed_
 
-## Privacy
+### Privacy
 
 The Ethereum Foundation is not responsible for any private information that might
 be leaked as a result of this program.
@@ -76,7 +76,7 @@ In the event that the reporting of an attack _does leak_ private information
 Instead, please note that there are additional accompanying resources to be shared,
 and the attacknet evaluators will be in touch.
 
-## Important legal information
+### Important legal information
 
 We give explicit permission to attack these attacknets over the internet.
 
@@ -88,4 +88,41 @@ In addition, we are not able to issue rewards to individuals who are on sanction
 lists or who are in countries on sanctions lists (e.g. North Korea, Iran, etc).
 You are responsible for all taxes. All rewards are subject to applicable law.
 Finally, your testing must not violate any law or compromise any data that is not yours.
+
+## Getting started
+
+### Running clients with custom config files
+
+For each attacknet, a README.md and configuration files are provided to allow
+for easy running of clients. Note that a `prysm_config.yaml` and `lighthouse-testnet` directory
+are provided for each testnet regardless of the constituent clients making up
+the testnet. These are configuration files that you can use to run lighthouse
+and/or prysm on each testnet.
+
+To run [lighthouse](https://github.com/sigp/lighthouse/), in addition to normal
+configuration commandline flags, use the following:
+* `--testnet-dir {LIGHTHOUSE_TESTNET_DIR}` where `LIGHTHOUSE_TESTNET_DIR`
+  is the `lighthouse-testnet` directory found within the specific attacknet.
+
+To run [prysm](https://github.com/prysmaticlabs/prysm/), in addition to normal
+configuration commandline flags, use the following:
+* `--chain-config-file {PRYSM_CONFIG_FILE}` where `PRYSM_CONFIG_FILE` is the
+  `prysm_config.yaml` file found within the specific attacknet.
+* `--deposit-contract {DEPOSIT_CONTRACT_ADDR}` where `DEPOSIT_CONTRACT_ADDR` is
+  the `0x` prefixed deposit contract address found in the specific attacknet
+  README.md
+* `--contract-deployment-block {DEPOSIT_CONTRACT_DEPLOY_NUMBER}` where `DEPOSIT_CONTRACT_DEPLOY_NUMBER` is
+  the block number at which the deposit contract was deployed, found in the attacknet README.md
+* `--custom-genesis-delay {GENESIS_DELAY}` where `GENESIS_DELAY` is
+  the genesis delay param found in the attacknet README.md
+
+### Rumor -- Eth2 interactive shell
+
+@protolambda maintains [`rumor`](https://github.com/protolambda/rumor),
+an eth2 interactive shell for dynamically interacting with eth2 networks and data.
+
+Check out the rumor [README](https://github.com/protolambda/rumor) for basic
+documentation. We expect this tool to be invaluable in getting started,
+understanding networks, and constructing attacks.
+
 
