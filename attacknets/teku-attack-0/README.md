@@ -20,7 +20,7 @@ all teku `v0.12.1` attacknet composed of 4 nodes and 128 validators.
 - `MIN_GENESIS_ACTIVE_VALIDATOR_COUNT`: `128`
 - `GENESIS_DELAY`: `300`
 - Bootnode ENR(s):
-  - `enr:-KG4QLbHkqa5d6Ap0bBEuLUazyWPVbdVsZ_Py-9zFH0Uh9NMS9V-gzEvRzyMV0kPv1vsQafu1hZu8c3jDEdxn0INEnwDhGV0aDKQFX0wNAAAAAD__________4JpZIJ2NIJpcIQNciWwiXNlY3AyNTZrMaEC398ggkQb5G2M8QuLva2CCMqe9mFGQyb0SEM6_MDiGdiDdGNwgiMog3VkcIIjKA`
+  - `enr:-LK4QFqcQToZriXkTP-_oP1sVIXoynwTWG5yBrTUw2v04kDqcWEISm5pKrX7q2gVj3fetOENcJ-nFOIKxIKFYa78R2kQh2F0dG5ldHOIerk4dAIt-SeEZXRoMpAVfTA0AAAAAP__________gmlkgnY0gmlwhA1yJbCJc2VjcDI1NmsxoQOirrUOnSvlsumnw9K-ZZElP5fmBph8j2uA0HuqU9lHuIN0Y3CCIyiDdWRwgiMo`
 - Chain Explorers: None
 - Status Dashboard: None
 
