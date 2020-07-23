@@ -9,6 +9,7 @@ This program is currently in "beta-0" and all details are subject to change.
 Active `beta-0` attacknets:
 * [`lighthouse-attack-0`](./attacknets/lighthouse-attack-0)
 * [`prysm-attack-0`](./attacknets/prysm-attack-0)
+* [`teku-attack-0`](./attacknets/teku-attack-0)
 
 
 _Each network has a possible reward of $5k!_ Click specific attacknet links
@@ -36,6 +37,8 @@ in running clients and connecting to the network.
 
 * `prysm_config.yaml` -- is a YAML configuration file that can be ingested by
   the Prysm client via the `--chain-config-file` commandline flag
+* `teku_config.yaml` -- is a YAML configuration file that can be ingested by
+  the Teku client via the `--network` commandline flag
 * `lighthouse-testnet` -- is the testnet configuration directory that can be
   ingested by the Lighthouse client via the `--testnet-dir` commandline flag
 
@@ -46,6 +49,9 @@ following are the general rules for the program. [_Note_: This program is in `be
 and all rules are subject to change without prior notice].
 
 * The Ethereum Foundation is solely responsible for judging the attack and deciding on rewards
+* The Ethereum Foundation _may_ reward "honorable mention" rewards of any
+  denomination for interesting effects induced on testnets that do not
+  necessarily meet the stated goal
 * Awards can be redeemed in ETH or DAI
 * Eth2 client teams are eligible to participate only on attacknets that do not contain their specific client
 
@@ -55,7 +61,8 @@ All claims on attacknet rewards must be reported as an issue in this repo.
 
 Please follow this reporting structure to aid in prompt review:
 
-* Prefix the name of the Issue/PR with "[`{ATTACK_NET_NAME}` Reward]"
+* If succeeded in a testnet goal and want to make a claim on the reward, prefix the name of the Issue/PR with "[`{ATTACK_NET_NAME}` Reward]"
+* If want to share something interesting achieved outside of the goal, prefix the name of the Issue/PR with "[`{ATTACK_NET_NAME}` Issue]"
 * Use the following structure for the body of the Issue/PR
 
     * **Description**: _High-level description of the attack [1 sentence]_
@@ -94,20 +101,20 @@ Finally, your testing must not violate any law or compromise any data that is no
 ### Running clients with custom config files
 
 For each attacknet, a README.md and configuration files are provided to allow
-for easy running of clients. Note that a `prysm_config.yaml` and `lighthouse-testnet` directory
+for easy running of clients. Note that a `prysm_config.yaml`, `teku_config.yaml`, and `lighthouse-testnet` directory
 are provided for each testnet regardless of the constituent clients making up
-the testnet. These are configuration files that you can use to run lighthouse
-and/or prysm on each testnet.
+the testnet. These are configuration files that you can use to run lighthouse,
+prysm, and/or teku on each testnet.
 
 To run [lighthouse](https://github.com/sigp/lighthouse/), in addition to normal
 configuration commandline flags, use the following:
 * `--testnet-dir {LIGHTHOUSE_TESTNET_DIR}` where `LIGHTHOUSE_TESTNET_DIR`
-  is the `lighthouse-testnet` directory found within the specific attacknet.
+  is the `lighthouse-testnet` directory found within the specific attacknet
 
 To run [prysm](https://github.com/prysmaticlabs/prysm/), in addition to normal
 configuration commandline flags, use the following:
 * `--chain-config-file {PRYSM_CONFIG_FILE}` where `PRYSM_CONFIG_FILE` is the
-  `prysm_config.yaml` file found within the specific attacknet.
+  `prysm_config.yaml` file found within the specific attacknet
 * `--deposit-contract {DEPOSIT_CONTRACT_ADDR}` where `DEPOSIT_CONTRACT_ADDR` is
   the `0x` prefixed deposit contract address found in the specific attacknet
   README.md
@@ -115,6 +122,15 @@ configuration commandline flags, use the following:
   the block number at which the deposit contract was deployed, found in the attacknet README.md
 * `--custom-genesis-delay {GENESIS_DELAY}` where `GENESIS_DELAY` is
   the genesis delay param found in the attacknet README.md
+
+To run [teku](https://github.com/pegasyseng/teku), in addition to normal configuration
+commandline flags, use the following:
+* `--network {TEKU_CONFIG_FILE}` where `TEKU_CONFIG_FILE` is the
+  `teku_config.yaml` file found within the specific attacknet
+* `--eth1-deposit-contract-address {DEPOSIT_CONTRACT_ADDR}` where `DEPOSIT_CONTRACT_ADDR` is
+  the `0x` prefixed deposit contract address found in the specific attacknet
+  README.md
+
 
 ### Rumor -- Eth2 interactive shell
 
