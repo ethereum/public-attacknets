@@ -2,18 +2,19 @@
 
 This repository tracks public "attacknets" maintained by the EF.
 
-## `beta-0`
+## Multi-client `beta-1` attacknet
 
-This program is currently in "beta-0" and all details are subject to change.
+A multi-client [beta-1 attacknet](./attacknets/beta-1) composed of three
+clients is up with multiple tiers of bounties (up to $15k!). [Read more](./attacknets/beta-1)
+for details about configuration, rules, and rewards.
 
-Active `beta-0` attacknets:
-* [`lighthouse-attack-0`](./attacknets/lighthouse-attack-0)
-* [`prysm-attack-0`](./attacknets/prysm-attack-0)
-* [`teku-attack-0`](./attacknets/teku-attack-0)
+## Single-client `beta-0` attacknets
 
+Single-client [beta-0 attacknets](./attacknets/beta-0) remain up, each with a continuous $5k bounty
+for novel exploits leading to sustained loss of finality.
 
-_Each network has a possible reward of $5k!_ Click specific attacknet links
-above for more details about configuration, rules, and rewards.
+_Each network has a possible reward of $5k!_ [Read more](./attacknets/beta-0)
+for details about configuration, rules, and rewards.
 
 `lighthouse-attack-0` and `prysm-attack-0` are real networks, ready for you to attack,
 but they are beta in the sense that it's our first go at this -- we expect to learn and iterate quickly.

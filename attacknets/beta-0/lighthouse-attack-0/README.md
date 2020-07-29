@@ -26,18 +26,4 @@ all lighthouse `v0.12.1` attacknet composed of 4 nodes and 128 validators.
 
 ## Rules
 
-Please see [general attacknet rules](../../README.md#general-rules) in addition
-to the following:
-
-* **The goal**: _prevent finality on a single network for 16 continuous epochs_
-* **The rules**:
-    * _By any means necessary_. Seriously.
-      The scope of these initial networks is purposefully wide open to encourage
-      participation and experimentation. In subsequent nets, we might have more scoped out
-      challenges and rules, but for _`beta_0`_, let's just dig in.
-    * _Show your work_. To qualify for the reward, you must (1) point specifically to the epoch range that affected,
-      (2) provide some sort of proof that you caused the outage,
-      and (3) provide technical details about the attack and how it was performed.
-* **The reward**: _**$5k (USD)** to the first entity to achieve the goal._
-  Maximum one reward per entity for `beta_0` attacknets. If you take down `lighthouse-attack-0`,
-  you do not qualify for the reward for `prysm-attack-0` and vice versa.
+Please see [beta-0 rules](../README.md#rules) and [general attacknet rules](../../../README.md#general-rules).
