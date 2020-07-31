@@ -63,7 +63,11 @@ All claims on attacknet rewards must be reported as an issue in this repo.
 Please follow this reporting structure to aid in prompt review:
 
 * If succeeded in a testnet goal and want to make a claim on the reward, prefix the name of the Issue/PR with "[`{ATTACK_NET_NAME}` Reward]"
+  Use [this template](https://github.com/ethereum/public-attacknets/issues/new?assignees=&labels=&template=attacknet-reward.md&title=%5BATTACKNET_NAME+Reward%5D)
+  for convenience.
 * If want to share something interesting achieved outside of the goal, prefix the name of the Issue/PR with "[`{ATTACK_NET_NAME}` Issue]"
+  Use [this template](https://github.com/ethereum/public-attacknets/issues/new?assignees=&labels=&template=attacknet-issue.md&title=%5BATTACKNET_NAME+Issue%5D)
+  for convenience.
 * Use the following structure for the body of the Issue/PR
 
     * **Description**: _High-level description of the attack [1 sentence]_
