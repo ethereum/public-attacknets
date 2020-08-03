@@ -2,22 +2,19 @@
 
 This repository tracks public "attacknets" maintained by the EF.
 
-## `beta-0`
+## Multi-client `beta-1` attacknet
 
-This program is currently in "beta-0" and all details are subject to change.
+A multi-client [beta-1 attacknet](./attacknets/beta-1) composed of three
+clients is up with multiple tiers of bounties (up to $15k!). [Read more](./attacknets/beta-1)
+for details about configuration, rules, and rewards.
 
-Active `beta-0` attacknets:
-* [`lighthouse-attack-0`](./attacknets/lighthouse-attack-0)
-* [`prysm-attack-0`](./attacknets/prysm-attack-0)
-* [`teku-attack-0`](./attacknets/teku-attack-0)
+## Single-client `beta-0` attacknets
 
+Single-client [beta-0 attacknets](./attacknets/beta-0) remain up, each with a continuous $5k bounty
+for novel exploits leading to sustained loss of finality.
 
-_Each network has a possible reward of $5k!_ Click specific attacknet links
-above for more details about configuration, rules, and rewards.
-
-`lighthouse-attack-0` and `prysm-attack-0` are real networks, ready for you to attack,
-but they are beta in the sense that it's our first go at this -- we expect to learn and iterate quickly.
-These networks are also very small (only 4 nodes each!) so should be pretty easy to take down.
+_Each network has a possible reward of $5k!_ [Read more](./attacknets/beta-0)
+for details about configuration, rules, and rewards.
 
 Deposits are not enabled in `beta-0` testnets so you'll have to try
 non-validator based attacks for this run.
@@ -39,7 +36,7 @@ in running clients and connecting to the network.
   the Prysm client via the `--chain-config-file` commandline flag
 * `teku_config.yaml` -- is a YAML configuration file that can be ingested by
   the Teku client via the `--network` commandline flag
-* `lighthouse-testnet` -- is the testnet configuration directory that can be
+* `lighthouse` -- is the testnet configuration directory that can be
   ingested by the Lighthouse client via the `--testnet-dir` commandline flag
 
 ## General rules
@@ -62,7 +59,11 @@ All claims on attacknet rewards must be reported as an issue in this repo.
 Please follow this reporting structure to aid in prompt review:
 
 * If succeeded in a testnet goal and want to make a claim on the reward, prefix the name of the Issue/PR with "[`{ATTACK_NET_NAME}` Reward]"
+  Use [this template](https://github.com/ethereum/public-attacknets/issues/new?assignees=&labels=&template=attacknet-reward.md&title=%5BATTACKNET_NAME+Reward%5D)
+  for convenience.
 * If want to share something interesting achieved outside of the goal, prefix the name of the Issue/PR with "[`{ATTACK_NET_NAME}` Issue]"
+  Use [this template](https://github.com/ethereum/public-attacknets/issues/new?assignees=&labels=&template=attacknet-issue.md&title=%5BATTACKNET_NAME+Issue%5D)
+  for convenience.
 * Use the following structure for the body of the Issue/PR
 
     * **Description**: _High-level description of the attack [1 sentence]_
@@ -101,7 +102,7 @@ Finally, your testing must not violate any law or compromise any data that is no
 ### Running clients with custom config files
 
 For each attacknet, a README.md and configuration files are provided to allow
-for easy running of clients. Note that a `prysm_config.yaml`, `teku_config.yaml`, and `lighthouse-testnet` directory
+for easy running of clients. Note that a `prysm_config.yaml`, `teku_config.yaml`, and `lighthouse` directory
 are provided for each testnet regardless of the constituent clients making up
 the testnet. These are configuration files that you can use to run lighthouse,
 prysm, and/or teku on each testnet.
@@ -109,7 +110,7 @@ prysm, and/or teku on each testnet.
 To run [lighthouse](https://github.com/sigp/lighthouse/), in addition to normal
 configuration commandline flags, use the following:
 * `--testnet-dir {LIGHTHOUSE_TESTNET_DIR}` where `LIGHTHOUSE_TESTNET_DIR`
-  is the `lighthouse-testnet` directory found within the specific attacknet
+  is the `lighthouse` directory found within the specific attacknet
 
 To run [prysm](https://github.com/prysmaticlabs/prysm/), in addition to normal
 configuration commandline flags, use the following:
