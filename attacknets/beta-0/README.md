@@ -21,7 +21,7 @@ to the following:
     * Additional validators for attack are _not_ allowed and are prevented
       through a modified deposit contract.
     * "Trivial DoS attacks" are now out of scope. More novel DoS attacks that are heightened due
-    to message-type/contents, packet structure, etc are still valid.
+      to message-type/contents, packet structure, etc are still valid.
     * All other attack vectors are in scope.
     * _Show your work_. To qualify for the reward, you must (1) point specifically to the epoch range that affected,
       (2) provide some sort of proof that you caused the outage,

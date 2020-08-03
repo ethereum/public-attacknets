@@ -60,8 +60,8 @@ to the following:
         * multi-client DoS vector able to disrupt finality (> 8 epochs) or
           take a set of nodes entirely offline
     * $7.5k (USD) reward tier
-        * multi-client DoS vector able to induce a higher than normal (> 1.5x)
-          resource consumption on some set of nodes
+        * multi-client DoS vector able to reduce the majority of nodes' peer
+          count to less than 5
     * $1 to $15k (USD) reward tier
         * novel and interesting attacks not explicitly mentioned above (rewards
           made at the discretion of attacknet maintainers)
