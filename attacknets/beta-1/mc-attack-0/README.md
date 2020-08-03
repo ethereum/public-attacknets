@@ -14,7 +14,7 @@ across three clients (prysm, lighthouse, and teku).
 - Fork Digest: `2e44918e`
 - Initial State Root: `0xf2a928a4fc6e63c3ad520ec7340b646aa3772991727cf0eeb0dd0a5f6c644e25`
 - Genesis Block Root: `0xed8e76a43a622ff116992d8c9cca44981c840d424391870c5302a22e0ae5ebcc`
-- Deposit Contract: [`0x38c750cFFb382cDD3644C40A39540a9b4b46b0cf`](https://goerli.etherscan.io/address/0x38c750cFFb382cDD3644C40A39540a9b4b46b0cf) ([Goerli Testnet](https://github.com/goerli/testnet))
+- Deposit Contract: [`0x38c750cFFb382cDD3644C40A39540a9b4b46b0cf`](https://goerli.etherscan.io/address/0x38c750cFFb382cDD3644C40A39540a9b4b46b0cf) (_Note_ this is a modified deposit contract with access control features. See [`beta-1`](../README.md#attacker-validators) rules for more details on registering validators)
 - Deposit Contract Deploy Block Hash: `0x7459ad12e5dfe0e513ea1a5fef498c54f268d654f721df56e0e2fe5012e13998`
 - Deposit Contract Deploy Block Number: `3150443`
 - `MIN_GENESIS_TIME`: `1578009600`
