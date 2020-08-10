@@ -142,4 +142,17 @@ Check out the rumor [README](https://github.com/protolambda/rumor) for basic
 documentation. We expect this tool to be invaluable in getting started,
 understanding networks, and constructing attacks.
 
+## Trophies 🏆
+
+Here we immortalize, for all time, the successful attacks conducted by 1337 h4x0rz.
+
+_You, too, can achieve perpetual fame and glory. Read some code, run some nodes, and break some nets._
+
+| User | Attacknet | Attack | Reward |
+| ------------- | ---------- | ----------- | ---------- |
+| @jrhea | `prysm-attack-0`| [DoS Attack on Prysm via Golang stdlib exploit stops finality](https://github.com/ethereum/public-attacknets/issues/12) | $5k (USD) |
+| @holiman | `prysm-attack-0`| [Remote crash nodes over p2p](https://github.com/ethereum/public-attacknets/issues/11) | ~~$5k (USD)~~ No reward, EF Security Team |
+| @AlexSSD7 | `prysm-attack-0`| [L4 Distributed Denial of Service attack stops finality](https://github.com/ethereum/public-attacknets/issues/9) | $5k (USD) |
+| @jrhea | `teku-attack-0`| [DoS Attack on Teku Stops Finality](https://github.com/ethereum/public-attacknets/issues/7) | $5k (USD) |
+| @jrhea | `lighthouse-attack-0`| [Network agent crashes lighthouse discovery](https://github.com/ethereum/public-attacknets/issues/4) | $1k (USD) |
 
