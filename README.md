@@ -8,19 +8,6 @@ A multi-client [beta-1 attacknet](./attacknets/beta-1) composed of three
 clients is up with multiple tiers of bounties (up to $15k!). [Read more](./attacknets/beta-1)
 for details about configuration, rules, and rewards.
 
-## Single-client `beta-0` attacknets
-
-Single-client [beta-0 attacknets](./attacknets/beta-0) remain up, each with a continuous $5k bounty
-for novel exploits leading to sustained loss of finality.
-
-_Each network has a possible reward of $5k!_ [Read more](./attacknets/beta-0)
-for details about configuration, rules, and rewards.
-
-Deposits are not enabled in `beta-0` testnets so you'll have to try
-non-validator based attacks for this run.
-
-See README for each net for network configuration and rules/rewards.
-
 ## Attacknet directory structure
 
 Each attacknet is contained within it's own sub-directory within [`./attacknets`](./attacknets).
@@ -155,4 +142,11 @@ _You, too, can achieve perpetual fame and glory. Read some code, run some nodes,
 | @AlexSSD7 | `prysm-attack-0`| [L4 Distributed Denial of Service attack stops finality](https://github.com/ethereum/public-attacknets/issues/9) | $5k (USD) |
 | @jrhea | `teku-attack-0`| [DoS Attack on Teku Stops Finality](https://github.com/ethereum/public-attacknets/issues/7) | $5k (USD) |
 | @jrhea | `lighthouse-attack-0`| [Network agent crashes lighthouse discovery](https://github.com/ethereum/public-attacknets/issues/4) | $1k (USD) |
+
+## Deprecated attacknets
+
+### Single-client `beta-0` attacknets
+
+_[`beta-0`](./attacknets/beta-0) attacknets are deprecated. All nodes are have been disabled
+and attacks/rewards are no longer eligible._
 

@@ -44,8 +44,6 @@ to the following:
     * Attacker validator deposits are allowed but restricted with access control.
       See [attacker validators](#attacker-validators) for details on making a
       formal request.
-    * Single-client DoS vectors are not in scope.
-      Use [beta-0](../beta-0) attacks to test non-trivial, client-specific DoS vectors.
     * "Trivial DoS attacks" are not in scope. More novel DoS attacks that are heightened due
       to message-type/contents, packet structure, etc are still valid.
       See [above](#dos-attacks) for more information on DoS attacks in `beta-1`.
@@ -54,14 +52,17 @@ to the following:
       (2) provide some sort of proof that you caused the outage,
       and (3) provide technical details about the attack and how it was performed.
 * **Goals and rewards**:
-    * $15k (USD) reward tier
-        * sustained network split of all nodes of 1 client from others (> 16 epochs)
+    * $25k (USD) reward tier
+        * sustained network (p2p) split of all nodes of 1 client from others (> 16 epochs)
         * consensus split of 1 client type from others
         * multi-client DoS vector able to disrupt finality (> 8 epochs) or
           take a set of nodes entirely offline
-    * $7.5k (USD) reward tier
+    * $15k (USD) reward tier
         * multi-client DoS vector able to reduce the majority of nodes' peer
           count to less than 5
-    * $1 to $15k (USD) reward tier
+    * $5k (USD) reward tier
+        * single-client DoS vector able to reduce the activity of all nodes of a single client type
+          to less than 10% success rate (> 8 epochs)
+    * $1 to $25k (USD) reward tier
         * novel and interesting attacks not explicitly mentioned above (rewards
           made at the discretion of attacknet maintainers)

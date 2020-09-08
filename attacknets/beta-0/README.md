@@ -1,4 +1,7 @@
-# Single-client `beta-0` attacknets
+# [DEPRECATED] Single-client `beta-0` attacknets
+
+_`beta-0` attacknets are deprecated. All nodes are have been disabled
+and attacks/rewards are no longer eligible._
 
 Active `beta-0` attacknets:
 * [`lighthouse-attack-0`](./lighthouse-attack-0)

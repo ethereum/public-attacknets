@@ -1,6 +1,6 @@
-# `lighthouse-attack-0` (`beta_0`)
+# [DEPRECATED] `lighthouse-attack-0` (`beta_0`)
 
-***STATUS***: _active_
+***STATUS***: _deprecated_
 
 ## Configuration
 
