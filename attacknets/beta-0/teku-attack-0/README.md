@@ -1,6 +1,6 @@
-# `teku-attack-0` (`beta-0`)
+# [DEPRECATED] `teku-attack-0` (`beta-0`)
 
-***STATUS***: _active_
+***STATUS***: _deprecated_
 
 This directory contains the client configuration info and files for an
 all teku `v0.12.1` attacknet composed of 4 nodes and 128 validators.
