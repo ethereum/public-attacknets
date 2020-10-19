@@ -1,8 +1,16 @@
-# Public eth2 attacknets
+# [DEPRECATED] Public eth2 attacknets
+
+***Note: This attacknet program has been deprecated in favor of the more
+general [eth2 bounty program](https://eth2bounty.ethereum.org/). All previous
+bounty types in this repo qualify in the new program. Please use
+eth2bounty@etheruem.org for responsible disclosure.***
+
+_All previous trophies will be ported to the long standing eth2 bounty
+program._
 
 This repository tracks public "attacknets" maintained by the EF.
 
-## Multi-client `beta-1` attacknet
+## [DEPRECATED] Multi-client `beta-1` attacknet
 
 A multi-client [beta-1 attacknet](./attacknets/beta-1) composed of three
 clients is up with multiple tiers of bounties (up to $15k!). [Read more](./attacknets/beta-1)
@@ -142,6 +150,9 @@ _You, too, can achieve perpetual fame and glory. Read some code, run some nodes,
 | @AlexSSD7 | `prysm-attack-0`| [L4 Distributed Denial of Service attack stops finality](https://github.com/ethereum/public-attacknets/issues/9) | $5k (USD) |
 | @jrhea | `teku-attack-0`| [DoS Attack on Teku Stops Finality](https://github.com/ethereum/public-attacknets/issues/7) | $5k (USD) |
 | @jrhea | `lighthouse-attack-0`| [Network agent crashes lighthouse discovery](https://github.com/ethereum/public-attacknets/issues/4) | $1k (USD) |
+| @tintinweb | `teku-attack-0` | [DoS Attack on Teku via gossipsub](https://github.com/ethereum/public-attacknets/issues/15) | $5k (USD) |
+| @atoulme | `teku-attack-0` | [DoS Attack: UDP random 46 bytes packets](https://github.com/ethereum/public-attacknets/issues/16) | $5k (USD) |
+| @atoulme | `teku-attack-0` | [Crash discovery service with malformed WHOAREYOU packet](https://github.com/ethereum/public-attacknets/issues/18) | $5k (USD) |
 
 ## Deprecated attacknets
 
