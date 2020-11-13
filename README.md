@@ -3,7 +3,7 @@
 ***Note: This attacknet program has been deprecated in favor of the more
 general [eth2 bounty program](https://eth2bounty.ethereum.org/). All previous
 bounty types in this repo qualify in the new program. Please use
-eth2bounty@etheruem.org for responsible disclosure.***
+eth2bounty@ethereum.org for responsible disclosure.***
 
 _All previous trophies will be ported to the long standing eth2 bounty
 program._
